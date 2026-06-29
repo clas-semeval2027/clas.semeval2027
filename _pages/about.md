@@ -27,4 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-More information coming soon.
+We are happy to announce that the **CLaS: Cross-Lingual Alignment and Steering of Large Language Models** Shared Task is coming to *SemEval* 2027.
+
+The CLaS shared task, based on CLaS-Bench (Gurgurov et al., 2026), asks participants to control the output language of a large language model (LLM) using inference-time interventions. Given a question in a source language, participants must steer the model to produce a relevant, coherent answer in a specified language. 
+
+More information coming soon!
+
+
+#### References
+
+Daniil Gurgurov, Yusser Al Ghussin, Tanja Baeumel, Cheng-Ting Chou, Patrick Schramowski, Marius Mosbach, Josef Van Genabith, and Simon Ostermann. 2026. [CLaS-Bench: A Cross-Lingual Alignment and Steering Benchmark](https://aclanthology.org/2026.findings-acl.1086/). In Findings of the Association for Computational Linguistics: ACL 2026, pages 21591–21628, San Diego, California, United States. Association for Computational Linguistics.
+
