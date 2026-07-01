@@ -1,9 +1,9 @@
 ---
 layout: page
-title: team
-permalink: /team/
+title: contact
+permalink: /contact/
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 Please send all inquiries to our shared email address: **clas.semeval2027@gmail.com**

@@ -1,12 +1,10 @@
 ---
 layout: page
-title: the task
+title: the CLaS task
 permalink: /task/
 nav: true
 nav_order: 1
 ---
-
-### The CLaS task
 
 The CLaS shared task, based on CLaS-Bench (Gurgurov et al., 2026), asks participants to control the output language of a large language model (LLM) using inference-time interventions. Given a question in a source language, participants must steer the model to produce a relevant, coherent answer in a specified language.
 
