@@ -6,12 +6,19 @@ subtitle:
 
 profile:
   align: left
-  image: clas_logo.png
+  image: #clas_logo.png
   image_circular: false # crops the image to make it circular
   more_info: #>
     # <p>555 your office number</p>
     # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
+  
+#<style>
+#.profile img {
+#  box-shadow: none !important;
+#  max-width: 70% !important;
+#}
+#</style>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,12 +33,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<style>
-.profile img {
-  box-shadow: none !important;
-  max-width: 70% !important;
-}
-</style>
 
 We are happy to announce that the **CLaS: Cross-Lingual Alignment and Steering of Large Language Models** Shared Task is coming to *SemEval* 2027.
 

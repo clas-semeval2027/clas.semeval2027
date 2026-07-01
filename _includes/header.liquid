@@ -3,10 +3,11 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <!-- Logo Icon -->
-      <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ '/assets/img/' | append: site.icon | relative_url }}"
-             height="30" alt="{{ site.title }}">
-      </a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/" style="position: relative;">
+          <img src="{{ '/assets/img/' | append: site.icon | relative_url }}"
+               alt="{{ site.title }}"
+               style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); height: 70px; width: auto; z-index: 10;">
+        </a>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
