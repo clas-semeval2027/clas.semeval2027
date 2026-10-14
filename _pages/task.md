@@ -113,7 +113,7 @@ System submissions will open on **January 10, 2027**, and the evaluation period 
 Participants will submit their code and dependency requirements through a form on the shared task website. The submission form and detailed instructions will be made available closer to the evaluation period.
 
 <div class="task-buttons" style="margin: 0;">
-  <a href="/register/" class="btn btn--primary">Register your team</a>
+  <a href="{{ '/register/' | relative_url }}" class="btn btn--primary">Register your team</a>
   <span class="btn" aria-disabled="true" style="opacity: 0.55; cursor: not-allowed;">Submissions open January 10, 2027</span>
 </div>
 <div style="height: 16px;"></div>

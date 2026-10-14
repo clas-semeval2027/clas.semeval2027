@@ -37,7 +37,7 @@ The task also provides an opportunity to investigate how language information is
 We welcome researchers and teams interested in participating in the CLaS Shared Task at SemEval 2027.
 
 <div class="task-buttons" style="margin: 0;">
-  <a href="/register/" class="btn btn--primary">Register your team</a>
+  <a href="{{ '/register/' | relative_url }}" class="btn btn--primary">Register your team</a>
   <span class="btn" aria-disabled="true" style="opacity: 0.55; cursor: not-allowed;">Submissions open January 10, 2027</span>
 </div>
 <div style="height: 16px;"></div>
@@ -46,6 +46,6 @@ Registration is now available through our website. System submissions will open 
 
 ### Resources
 
-- **[Task description](clas.semeval2027/task/):** Tracks, models, permitted methods, and evaluation.
-- **[Important dates](clas.semeval2027/dates/):** Evaluation and publication timeline.
+- **[Task description]({{ '/task/' | relative_url }}):** Tracks, models, permitted methods, and evaluation.
+- **[Important dates]({{ '/dates/' | relative_url }}):** Evaluation and publication timeline.
 - **[GitHub repository](https://github.com/d-gurgurov/CLaS-SemEval-2027):** Code for obtaining training and validation data, running baseline generations, and evaluating results.
