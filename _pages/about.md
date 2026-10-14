@@ -46,6 +46,6 @@ Registration is now available through our website. System submissions will open 
 
 ### Resources
 
-- **[Task description](/task/):** Tracks, models, permitted methods, and evaluation.
-- **[Important dates](/dates/):** Evaluation and publication timeline.
+- **[Task description](clas.semeval2027/task/):** Tracks, models, permitted methods, and evaluation.
+- **[Important dates](clas.semeval2027/dates/):** Evaluation and publication timeline.
 - **[GitHub repository](https://github.com/d-gurgurov/CLaS-SemEval-2027):** Code for obtaining training and validation data, running baseline generations, and evaluating results.
