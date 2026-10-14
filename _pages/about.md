@@ -1,5 +1,4 @@
 ---
-
 layout: about
 title: home
 permalink: /
@@ -7,33 +6,46 @@ permalink: /
 subtitle:
 
 profile:
-align: left
-image: # clas_logo.png
-image_circular: false
+  align: left
+  image: # clas_logo.png
+  image_circular: false
 
 selected_papers: false
 social: false
 
 announcements:
-enabled: false
-scrollable: true
-limit: 5
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-enabled: false
-scrollable: true
-limit: 3
-
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
 We are happy to announce the **CLaS: Cross-Lingual Alignment and Steering of Large Language Models** Shared Task at *SemEval 2027*.
 
-The CLaS shared task asks participants to control the output language of a large language model (LLM) using inference-time interventions. Given a question in a source language, participants steer the model to produce a relevant and coherent answer in a specified target language.
+The CLaS shared task focuses on controlling the output language of large language models (LLMs) through **inference-time internal interventions**. Given a question in a source language, participants steer a model to generate a relevant and coherent answer in a specified target language.
 
-We encourage participants to go beyond existing steering approaches and explore how language steering can be improved. This can include making small changes to established methods, combining existing techniques, or developing entirely new approaches to language steering. We are particularly interested in methods that provide better language control while preserving the relevance and quality of the model's responses.
+We encourage participants to develop new approaches to language steering, improve existing methods, and combine complementary techniques. We are particularly interested in methods that achieve reliable language control while preserving the relevance and quality of model responses.
 
-The task is also an opportunity to investigate how and where language information is represented inside multilingual language models, and whether steering methods generalize across languages, including low-resource languages. Participants are therefore welcome to experiment with different intervention strategies, model components, layers, and representations.
+The task also provides an opportunity to investigate how language information is represented within multilingual LLMs and whether steering methods generalize across languages, including low-resource languages.
 
-The codebase for obtaining training and validation data, running the baseline generations, and evaluating the results is available in our [GitHub repository](https://github.com/d-gurgurov/CLaS-SemEval-2027).
+### Participate in CLaS
 
-**More information is available on the [shared task page](https://clas-semeval2027.github.io/clas.semeval2027/).**
+We welcome researchers and teams interested in participating in the CLaS Shared Task at SemEval 2027.
+
+<div class="task-buttons" style="margin: 0;">
+  <a href="/register/" class="btn btn--primary">Register your team</a>
+  <span class="btn" aria-disabled="true" style="opacity: 0.55; cursor: not-allowed;">Submissions open January 10, 2027</span>
+</div>
+<div style="height: 16px;"></div>
+
+Registration is now available through our website. System submissions will open on January 10, 2027, at the beginning of the evaluation period. Detailed submission instructions will be published closer to that date.
+
+### Resources
+
+- **[Task description](/task/):** Tracks, models, permitted methods, and evaluation.
+- **[Important dates](/dates/):** Evaluation and publication timeline.
+- **[GitHub repository](https://github.com/d-gurgurov/CLaS-SemEval-2027):** Code for obtaining training and validation data, running baseline generations, and evaluating results.
