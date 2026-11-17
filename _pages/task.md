@@ -79,12 +79,13 @@ These examples are not exhaustive. Other methods are welcome provided they direc
 
 ## Evaluation
 
-Submissions will be evaluated automatically by the organizers using two criteria:
+Submissions will be evaluated automatically by the organizers using three criteria:
 
 - **Language compliance:** Whether the generated answer is in the requested target language, assessed using language identification.
-- **Query relevance:** Whether the generated answer appropriately addresses the input question.
+- **Query relevance:** Whether the generated answer appropriately addresses the input question, assessed by an LLM judge.
+- **Language quality [NEW!]:** Whether the generated answer is fluent and grammatical, assessed by an LLM judge.
 
-Optimizing for language compliance alone is not sufficient: answers must also remain relevant to the input query.
+The final score is the harmonic mean of the three. Optimizing for language compliance alone is not sufficient; answers must also remain relevant to the input query and be written in fluent, well-formed language.
 
 ### Test set and submission procedure
 
